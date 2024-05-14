@@ -1,3 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #212844;
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 0;
+
+  & button {
+    background-color: #024c95;
+    color: #fff;
+    border: none;
+    width: 4.5rem;
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+
+  & img {
+    height: 5rem;
+  }
+
+  & img:nth-child(3) {
+    height: 4rem;
+    margin-top: 1rem;
+  }
+}
+
+.images-container {
+  display: flex;
+}
+
+.line {
+  height: 80%;
+  width: 1px;
+  border: 1px solid white;
+}
+
+h1 {
+  color: #88888a;
+  margin: 0 2rem;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  padding-right: 2rem;
+  align-items: center;
+
+  & input {
+    padding-left: 1.3rem;
+    font-size: 1rem;
+  }
+
+  & img {
+    height: 0.9rem;
+    transform: translateX(1.3rem);
+  }
+}
+
+.tables-container {
+  background-color: #f4f3f8;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 243, 248, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border: 1px solid #eaebed;
+
+  padding: 2rem;
+  margin: 0 2rem;
+}
+
+.div-info {
+  background-color: #fff;
+  border: 1px solid #eaebed;
+  color: #88888a;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+
+  & img {
+    height: 1.2rem;
+  }
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #88888a;
+
+  padding: 0 2rem;
+
+  & img {
+    height: 1.8rem;
+  }
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+}
+
 .table-1 {
   border-collapse: collapse;
 }
@@ -6,18 +118,21 @@
 .table-1 td {
   text-align: left;
   vertical-align: top;
-  padding: 0.4rem 11rem 0.4rem 0px;
+  padding: 0.4rem 7rem 0.4rem 0px;
 }
 
 .table-2 {
   border-collapse: collapse;
   width: 100%;
-  overflow: auto;
+  font-size: 0.8rem;
+  table-layout: fixed;
+  max-width: 100%;
 
   & th,
   td {
     border: 0.1rem solid white;
     padding: 0.4rem;
+    word-wrap: break-word;
   }
 
   & th {
@@ -26,7 +141,6 @@
       rgba(255, 255, 255, 1) 0%,
       #cccdcd 100%
     );
-
     background: linear-gradient(
       180deg,
       rgba(237, 237, 237, 0.386) 0%,
@@ -37,4 +151,18 @@
 
 .table-2 tbody tr:last-child td {
   font-weight: bold;
+}
+
+.table-2::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.table-2::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+.table-2::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
 }
