@@ -170,11 +170,9 @@ function App() {
           <img src="back.png" alt="" />
 
           <div>
-            <div>000777238 JENNY K. RAMÍREZ CARRILLO</div>
+            <div>JENNY K. RAMÍREZ CARRILLO</div>
 
-            <div>Pregrado Distancia 2020-2 Ago 28,</div>
-
-            <div>2020 10:22 PM</div>
+            <div>Pregrado Pres. 2024-2 </div>
           </div>
         </div>
       </div>
@@ -188,28 +186,24 @@ function App() {
         <table className="table-1">
           <tr>
             <th>Nombre:</th>
-            <td> Jenny K. Ramírez Carrillo</td>
+            <td> JENNY K. RAMÍREZ CARRILLO</td>
           </tr>
           <br />
           <tr>
             <th>Clasificación:</th>
-            <td>Primer Semestre</td>
+            <td>Primer Cuatrimestre</td>
           </tr>
           <tr>
             <th>Nivel:</th>
-            <td>Pregrado</td>
+            <td>Tecnológico</td>
           </tr>
           <tr>
             <th>Escuela:</th>
-            <td>Fac Ciencias Humanas y Sociale</td>
+            <td>Fac. Ingeniería</td>
           </tr>
           <tr>
             <th>Carrera:</th>
-            <td>
-              Psicología
-              <br />
-              Fac Ciencias Humanas y Sociale
-            </td>
+            <td>Tecnología en Informática</td>
           </tr>
         </table>
 
