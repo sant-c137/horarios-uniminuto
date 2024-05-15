@@ -172,7 +172,7 @@ function App() {
           <div>
             <div>JENNY K. RAMÍREZ CARRILLO</div>
 
-            <div>Tecnológo Pres. 2024-2 </div>
+            <div>Pregrado Pres. 2024-2 </div>
           </div>
         </div>
       </div>
@@ -195,7 +195,7 @@ function App() {
           </tr>
           <tr>
             <th>Nivel:</th>
-            <td>Tecnológico</td>
+            <td>Pregrado</td>
           </tr>
           <tr>
             <th>Escuela:</th>
